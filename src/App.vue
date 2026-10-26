@@ -66,4 +66,19 @@ function playPrev(){
 
 <style scoped>
 
+.tiktok {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.tiktok video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+
 </style>
